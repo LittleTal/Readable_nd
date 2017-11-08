@@ -1,0 +1,12 @@
+*{
+  font-size: 14px;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.timestamp {
+  color: #999;
+  font-weight: normal;
+}

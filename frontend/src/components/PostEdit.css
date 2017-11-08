@@ -1,0 +1,56 @@
+@fontface {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Roboto')
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+*:focus {
+    outline: none;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+
+.label{
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+}
+
+.form-group{
+  margin-bottom: 24px;
+}
+
+.btn{
+  margin-right: 24px;
+}
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    width: 270px;
+}
+
+textarea{
+  outline: none;
+  width: 250px;
+  overflow: scroll;
+  padding: 8px;
+}
